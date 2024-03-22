@@ -1,0 +1,50 @@
+{
+  "name": "numquamea",
+  "version": "1.0.0",
+  "description": "NodeJS/JS library for parsing ethereum/web3 logs, events, and methods.",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "node tests/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HiramHudson/numquamea.git"
+  },
+  "keywords": [
+    "voluptatum",
+    "maiores",
+    "abiparser",
+    "exercitationem",
+    "impedit",
+    "decode",
+    "atque",
+    "web3",
+    "sapiente"
+  ],
+  "bugs": {
+    "url": "https://github.com/HiramHudson/numquamea.git/issues"
+  },
+  "homepage": "https://github.com/HiramHudson/numquamea.git",
+  "author": "ReyesLemke",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "web3-eth-abi": "^1.6.0",
+    "web3-utils": "^1.6.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-transform-modules-amd": "^7.2.0",
+    "@babel/plugin-transform-runtime": "^7.2.0",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/runtime": "^7.3.1",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-add-module-exports": "^1.0.0",
+    "browserify": "^17.0.0",
+    "buffer": "^6.0.3",
+    "stream-browserify": "^3.0.0",
+    "webpack": "^5.59.1",
+    "webpack-cli": "^4.9.1"
+  }
+}
